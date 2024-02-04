@@ -1,0 +1,6 @@
+/cypress/report
+cypress_runner.js
+/cypress/page_objects/xmlToPageobj.js
+/cypress/plugins/index.js
+/cypress/support/index.js
+/cypress/faker.d.ts

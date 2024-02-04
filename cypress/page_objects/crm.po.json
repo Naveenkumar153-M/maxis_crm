@@ -1,0 +1,533 @@
+{
+  "login_page": {
+    "email_input": "#email",
+    "password_input": "#password",
+    "login_button": "#login-form > button"
+  },
+  "product_selection": {
+    "maxis_bot": "div.product-summary.p-24.display-flex.border-radius-xlarge.maxisbot.m-b-16.cursor-pointer > div.m-l-16.flex-1 > div",
+    "maxis_crm": "div.product-summary.p-24.display-flex.border-radius-xlarge.maxiscrm.cursor-pointer > div.m-l-16.flex-1"
+  },
+  "sidenav_button": {
+    "activity": ".navigation-menu > a:nth-child(1)",
+    "dashboard": ".navigation-menu > a:nth-child(2)",
+    "report": ".navigation-menu > a:nth-child(3)",
+    "lead": ".p-1 > div:nth-child(1)",
+    "contact": "div.d-flex.flex-column.navigation-menu > a:nth-child(5)",
+    "company": ".navigation-menu > a:nth-child(6)",
+    "deal": ".navigation-menu > a:nth-child(7)"
+  },
+  "settings": {
+    "settings_btn": ".user-profile > div:nth-child(4).p-a-5",
+    "security_tab": ".overflow-auto > div:nth-child(2) > div:nth-child(3)"
+  },
+  "settings_data_fields": {
+    "datafields_tab": ".overflow-auto > div:nth-child(3) > div:nth-child(2)",
+    "field_tab": "#tab-0 ",
+    "group_tab": "#tab-1"
+  },
+  "settings_customization": {
+    "customization_tab": ".cursor-pointer.customization-dropdown > p > div",
+    "contact_tab": "li:nth-child(1) > div",
+    "deals_tab": "li:nth-child(2) > div",
+    "company_tab": "li:nth-child(3) > div",
+    "search_field": "#simple-tabpanel-0 > div > div > div > div > div > div > div > div > input",
+    "select_box_field": "#check-box",
+    "footer_save_changes_btn": "button.MuiButton-containedSecondary"
+  },
+  "settings_user_management": {
+    "user_nav_btn": "div.side-nav> div:nth-child(5) > div:nth-child(2)",
+    "team_nav_btn": "div.side-nav> div:nth-child(5) > div:nth-child(3)",
+    "role_nav_btn": "div.side-nav> div:nth-child(5) > div:nth-child(4)"
+  },
+  "email_module": {
+    "inbox_settings_btn": "div > div.side-nav.py-3.p-r-12.p-l-12 > div:nth-child(4) > div:nth-child(2)",
+    "email_templates_btn": "div > div.side-nav.py-3.p-r-12.p-l-12 > div:nth-child(4) > div:nth-child(3)"
+  },
+  "settings_google_integration": {
+    "integration_btn": "div.side-nav > div:nth-child(6) > div",
+    "header_integration_text": ".mb-4.justify-content-between > h5"
+  },
+  "basic_profile": {
+    "basic_detail_header_text": ".settings-content.flex-1.px-4.pt-4.pb-0 > div > div > div > h5:nth-child(1)"
+  },
+  "security_page": {
+    "security_page_header_text": ".settings-content.flex-1.px-4.pt-4.pb-0 > h5"
+  },
+  "lead_list_page": {
+    "add_lead_btn": ".breadcrumbRight.d-flex.align-items-center > div:nth-child(2)",
+    "header_lead_text": ".align-items-center > div > h5",
+    "lead_list_table": ".with-pagination.MuiPaper-elevation1.MuiPaper-rounded",
+    "lead_select_check_box": " tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.table-checkbox-section.MuiTableCell-alignRight.MuiTableCell-paddingCheckbox > div > label > div",
+    "lead_name": "tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.custom-tooltip.dynamic-content.MuiTableCell-alignLeft > p",
+    "lead_footer_edit_btn": ".d-flex > div:nth-child(4) > button",
+    "lead_search": ".align-items-center > div > div > input",
+    "lead_empty_page_text": ".heading.line-normal.font-600.mb-2",
+    "lead_list": ".MuiPaper-rounded > table > tbody"
+  },
+  "lead_list_footer": {
+    "edit_btn": ".d-flex > div:nth-child(4) > button",
+    "delete_btn": " div:nth-child(5) > button"
+  },
+  "lead_delete_popup": {
+    "lead_list_delete_btn": ".MuiButton-contained.small.red",
+    "lead_name": "tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.custom-tooltip.dynamic-content.MuiTableCell-alignLeft"
+  },
+  "lead_detail_page": {
+    "lead_details_header_note_text": ".bg-white.deals-header > h6",
+    "timeline_lead_created_text": ".lead-status-section.mb-3 > div > div:nth-child(1) > p",
+    "lead_detail_edit_btn": ".m-r-12.small.MuiButton-outlinedSecondary",
+    "lead_name": " div.mb-3.d-flex > div.flex-1.ml-3.text-truncate > div.m-b-2"
+  },
+  "lead_detail_page_edit_fields": {
+    "lead_detail_edit_btn": ".m-r-12.small.MuiButton-outlinedSecondary",
+    "first_name": ".drawer-content > div > div > div:nth-child(2) > div",
+    "phone_number": ".form-control-section.mb-3 > div",
+    "company_field": ".drawer-content > div > div > div:nth-child(8) > div > div",
+    "create_select_company": " ul > div.scroll-company-name",
+    "update_btn": "#drawer-next",
+    "cancel_btn": ".small.mr-2.MuiButton-outlinedPrimary"
+  },
+  "contact_detail_page_edit_fields": {
+    "contact_detail_edit_btn": ".m-r-12.small.MuiButton-outlinedSecondary",
+    "first_name": ".drawer-content > div > div > div:nth-child(2) > div",
+    "phone_number": ".form-control-section.mb-3 > div",
+    "company_field": ".drawer-content > div > div > div:nth-child(8) > div > div",
+    "create_select_company": " ul > div.scroll-company-name",
+    "update_btn": "#drawer-next",
+    "cancel_btn": ".small.mr-2.MuiButton-outlinedPrimary",
+    "last_name": ".drawer-content > div > div > div:nth-child(4) > div"
+  },
+  "contact_list_page": {
+    "add_Contact_btn": ".breadcrumbRight.d-flex.align-items-center > div:nth-child(2)",
+    "header_contact_text": ".align-items-center > div > h5",
+    "contact_list_table": ".MuiPaper-elevation1.MuiPaper-rounded > table",
+    "contact_name": "table > tbody > tr > td > div > div > a > p",
+    "contact_search": ".align-items-center > div > div > input",
+    "contact_list": ".MuiPaper-rounded > table > tbody",
+    "contact_select_check_box": "tr > td > div > label > div",
+    "contact_empty_page_text": ".heading.line-normal.font-600.mb-2",
+    "more_filter_btn": ".MuiButton-label > .d-flex > .title",
+    "field_to_filter": ":nth-child(1) > .MuiFormControl-root > .MuiInputBase-root > #demo-simple-select > .line-32",
+    "search_field_input": ".m-b-12 > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input",
+    "filter_email_contains_input": ".justify-content-end > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input",
+    "filter_email_does_not_contain_input": ".justify-content-end > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input",
+    "filter_email_has_value_input": ".justify-content-end > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input",
+    "more_filter_add_filter_btn": "#drawer-next > .MuiButton-label",
+    "more_filter_apply_filter_btn": "#drawer-next > .MuiButton-label",
+    "filter_email_empty_radio_btn": ":nth-child(5) > .details",
+    "filter_email_does_not_contain_radio_btn": ":nth-child(3) > .details",
+    "filter_email_has_value_radio_btn": ":nth-child(4) > .details",
+    "filter_phone_number_has_value_radio_btn": ":nth-child(7) > .details",
+    "filter_phone_number_does_not_contain_radio_btn": ":nth-child(3) > .details",
+    "filter_phone_number_empty_radio_btn": ":nth-child(8) > .details",
+    "custom_field_label": "body > div > div> div > div.drawer-content > div > div > label:nth-child(11)",
+    "custom_field_value": "body > div> div > div > div > div > div > div:nth-child(12) > div > input",
+    "custom_multiline_field_value": "body > div> div> div > div > div > div > div.MuiFormControl-root.MuiTextField-root.mb-3.textArea > div",
+    "custom_number_field_label": "body > div > div > div > div> div > div > div:nth-child(11) > label",
+    "custom_number_field_value": "body > div > div> div > div> div > div > div:nth-child(11) > div",
+    "custom_datepicker_field_label": "body > div> div> div > div > div > div > label:nth-child(11)",
+    "custom_datepicker_field_value": "body > div > div > div > div.drawer-content > div > div > div > div > div > div > button > span",
+    "custom_datepicker_field1_value": "body > div:nth-child(22) > div> div > div > div > div > div:nth-child(4) > div:nth-child(4) > button > span> p",
+    "custom_dropdown_field_label": "body > div > div > div > div > div > div > div:nth-child(11) > label",
+    "custom_dropdown_field_value": "body > div > div > div > div> div > div > div:nth-child(11) > div > div > div",
+    "custom_dropdown_field1_value": "#menu- > div.MuiPaper-root.MuiMenu-paper.mt-1.details-panel-dropdown.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded > ul > li:nth-child(2)",
+    "custom_multiselect_field1_value": "#menu- > div > ul > div:nth-child(2) > div > label > p",
+    "delete_btn": ".table-footer > div > div:nth-child(6) > button"
+  },
+  "contact_list_page_footer": {
+    "edit_btn": "#edit-btn > span.MuiButton-label",
+    "assign_to_btn": "#assign-to-btn",
+    "create_task_btn": "#create-task-btn",
+    "export_btn": "#export-btn",
+    "cancel_btn": "#cancel-btn",
+    "delete_btn": "#delete-btn",
+    "send_email_btn": "#send-email-btn"
+  },
+  "contact_delete_popup": {
+    "contact_list_delete_btn": ".MuiButton-contained.small.red",
+    "delete_deal_header": "div:nth-child(3) > div > div > h5"
+  },
+  "contact_detail_page": {
+    "contact_details_header_note_text": ".bg-white.deals-header > h6",
+    "three_dot_menu_edit_contact_option": "div> div> ul > div > li:nth-child(2)",
+    "contact_name": " div > div > div > h5",
+    "company_name_sub_title": "div > div.flex-1.text-truncate.d-flex.m-l-12 > div > p",
+    "back_button": ".back-arrow-icon > svg",
+    "contact_page_create_deal_btn": ".cursor-pointer.small.MuiButton-containedSecondary",
+    "action_dropdown": ".endIcon-button.MuiButton-outlinedSecondary",
+    "view_all_fields_btn": "#root > div.d-flex > div > div > div > div.details-panel > div > div > button > span.MuiButton-label",
+    "customized_field": "#root > div.d-flex > div > div > div > div > div> div > div > div> div > input",
+    "add_to_view_btn": ".field-hover-btn > button > span",
+    "contact_details_page_header": "#root > div.d-flex > div> div > div> div > div.d-flex.align-items-center.ml-2 > h6.txt-hint.cursor-pointer.size-13.font-600.mr-2",
+    "company_association_icon": ".note-panel-right.p-12.border-left > div:nth-child(5)",
+    "add_company_association_btn": ".note-panel > div > div.deals-header > button > span.MuiButton-label",
+    "existing_company_dropdown": "#demo-simple-select",
+    "search_existing_company_field": ".MuiPaper-rounded > ul > div > div > div > input",
+    "existing_comapny_list": "#menu- > div > ul > div> div > label > span",
+    "company_save_btn": "#drawer-next",
+    "associated_company_name": ".note-panel > div> div > div> div > div> div> p.text-truncate.m-b-2",
+    "company_more_option_btn": ".note-panel > div > div.d-flex.inner-box-content > div > div > div > svg",
+    "remove_association": "#details-menu > div.MuiPaper-rounded > ul > div > li:nth-child(2)",
+    "empty_company_association_text": "div.d-flex.inner-box-content > div.flex-1.bg-white.overflow-auto > div > p.empty-title.mb-2",
+    "deal_association_icon": ".note-panel-right.p-12.border-left > div:nth-child(4)",
+    "add_deal_association_btn": ".note-panel > div > div.deals-header > button > span.MuiButton-label",
+    "existing_deals_tab": "#tab-0",
+    "create_new_deal_tab": "#tab-1",
+    "existing_deal_dropdown": "#demo-simple-select",
+    "search_existing_deal_field": ".MuiPaper-rounded > ul > div > div > div > input",
+    "existing_deal_list": ".MuiPaper-rounded > ul > div.inside-scroll > div",
+    "deal_save_btn": "#drawer-next",
+    "associated_deal_name": ".note-panel > div > div > div > div > div.mb-2 > p",
+    "deal_more_option_btn": ".note-panel > div > div > div > div > div.mb-2 > div > svg",
+    "view_association": "#details-menu > div.MuiPaper-rounded > ul > div > li:nth-child(1)",
+    "empty_deal_association_text": "div.d-flex.inner-box-content > div.flex-1.bg-white.overflow-auto > div > p.empty-title.mb-2",
+    "contact_details_page_updated_field": ".sidenav-leads > div:nth-child(3) > div > p",
+    "contact_details_page_validate_field": "#root > div > div > div> div > div> div > div> div:nth-child(8) > div > div > p"
+  },
+  "contact_details_page_elements": {
+    "three_dot_menu": "div.mb-3.d-flex > div> svg",
+    "send_email_icon": ".details-panel > div > div > div > div:nth-child(1) > svg",
+    "schedule_an_appointment_icon": ".lead-icon-section > div:nth-child(2) > svg",
+    "create_a_task_icon": ".details-panel > div > div > div > div:nth-child(3) > svg",
+    "make_a_deal_icon": ".details-panel > div > div > div > div:nth-child(4) > svg"
+  },
+  "contact_detail_panel": {
+    "first_name": ".details-panel > div > div.flex-1.overflow-auto.py-3.px-4 > div:nth-child(1) > div > div > p",
+    "email": " div:nth-child(3) > div > div > p"
+  },
+  "company_list_page": {
+    "add_company_btn": ".breadcrumbRight.d-flex.align-items-center > div:nth-child(2)",
+    "header_company_text": ".align-items-center > div > h5",
+    "company_list_table": ".MuiPaper-elevation1.MuiPaper-rounded > table",
+    "company_name": "table > tbody > tr > td > div > div > a > p",
+    "search_companies_input": ".crm-details-panel > div.crm-details-content > div > div > div.breadcrumbLeft > div > div > input",
+    "company_phone_number": " tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.dynamic-content.MuiTableCell-alignLeft",
+    "company_select_check_box": " tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.table-checkbox-section.MuiTableCell-alignRight.MuiTableCell-paddingCheckbox > div > label > div",
+    "company_empty_page_text": ".heading.line-normal.font-600.mb-2"
+  },
+  "company_detail_page": {
+    "company_details_header_note_text": ".bg-white.deals-header > h6",
+    "company_details_activity_text": ".mb-3 > h6",
+    "add_company_btn": ".breadcrumbRight > :nth-child(2) > .MuiButtonBase-root > .MuiButton-label",
+    "company_phone_number_input": ".inner-content-section > div > div:nth-of-type(2) > div > input",
+    "company_name_input": ".inner-content-section > div > div:nth-of-type(1) > div > input",
+    "cancel_btn": ".drawer-footer > .align-items-center > .d-flex > :nth-child(1) > .MuiButton-label",
+    "create_and_add_new_btn": ".drawer-footer > .align-items-center > .d-flex > :nth-child(2) > .MuiButton-label",
+    "create_btn": "#drawer-next",
+    "created_company_name_title": "div > div > div > h5",
+    "three_dot_menu_edit_option": "div> div> ul > div > li:nth-child(2)",
+    "created_company_name_sub_title": ".ml-3 > .font-600",
+    "created_company_name_company_details": ".sidenav-leads > div:nth-child(3) > div:nth-child(1) > .avathar-list > div > p",
+    "company_phone_number_details": ".sidenav-leads > div:nth-child(3) > div:nth-child(2) > .avathar-list > div > p",
+    "back_button": ".back-arrow-icon > svg",
+    "action_dropdown": ".endIcon-button.MuiButton-outlinedSecondary",
+    "company_detail_edit_btn": ".m-r-12.small.MuiButton-outlinedSecondary",
+    "contact_association_icon": ".note-panel-right.p-12.border-left > div:nth-child(4)",
+    "add_contact_association_btn": ".note-panel > div > div.deals-header > button > span.MuiButton-label",
+    "existing_contact_dropdown": "#demo-simple-select",
+    "search_existing_contact_field": ".MuiPaper-rounded > ul > div > div > div > input",
+    "existing_contact_list": ".MuiPaper-rounded > ul > div.inside-scroll > div",
+    "contact_save_btn": "#drawer-next",
+    "associated_contact_name": ".note-panel > div> div > div> div > div> div> p.text-truncate.m-b-2",
+    "contact_more_option_btn": ".note-panel > div > div.d-flex.inner-box-content > div > div > div > svg",
+    "empty_contact_association_text": "div.d-flex.inner-box-content > div.flex-1.bg-white.overflow-auto > div > p.empty-title.mb-2",
+    "deal_association_icon": ".note-panel-right.p-12.border-left > div:nth-child(5)",
+    "add_deal_association_btn": ".note-panel > div > div.deals-header > button > span.MuiButton-label",
+    "existing_deals_tab": "#tab-0",
+    "create_new_deal_tab": "#tab-1",
+    "existing_deal_dropdown": "#demo-simple-select",
+    "search_existing_deal_field": ".MuiPaper-rounded > ul > div > div > div > input",
+    "existing_deal_list": ".MuiPaper-rounded > ul > div.inside-scroll > div",
+    "deal_save_btn": "#drawer-next",
+    "associated_deal_name": ".note-panel > div > div > div > div > div.mb-2 > p",
+    "deal_more_option_btn": ".note-panel > div > div > div > div > div.mb-2 > div > svg",
+    "view_association": "#details-menu > div.MuiPaper-rounded > ul > div > li:nth-child(1)",
+    "remove_association": "#details-menu > div.MuiPaper-rounded > ul > div > li:nth-child(2)",
+    "empty_deal_association_text": "div.d-flex.inner-box-content > div.flex-1.bg-white.overflow-auto > div > p.empty-title.mb-2"
+  },
+  "company_details_page_elements": {
+    "three_dot_menu": "div.mb-3.d-flex > div> svg",
+    "send_email_icon": "div.details-panel > div > div > div > div:nth-child(1) > svg",
+    "schedule_an_appointment_icon": "div> div > div > div.lead-icon-section > div:nth-child(2) > svg",
+    "create_a_task_icon": "div.details-panel > div > div > div > div:nth-child(3) > svg",
+    "make_a_deal_icon": "div.details-panel > div > div > div > div:nth-child(4) > svg"
+  },
+  "edit_company_fields": {
+    "company_phone_number_input": ".inner-content-section > div > div:nth-of-type(2) > div > input",
+    "company_name_input": ".inner-content-section > div > div:nth-of-type(1) > div > input",
+    "update_btn": "#drawer-next > span.MuiButton-label"
+  },
+  "add_lead_fields": {
+    "first_name": "div.drawer-content > div > div > div:nth-child(2) > div",
+    "email": ".drawer-content > div > div > div:nth-child(6) > div",
+    "phone_number": "#outlined-multiline-static",
+    "company_field": ".drawer-content > div > div > div:nth-child(8) > div > div",
+    "create_select_company": " ul > div.scroll-company-name",
+    "add_and_create_new_lead_btb": ".bg-white > div > div > button:nth-child(2)",
+    "cancel_btn": ".bg-white > div > div > button:nth-child(1)"
+  },
+  "edit_lead_drawer_fields": {
+    "first_name": "#single-line",
+    "phone_number": "#outlined-multiline-static",
+    "company_field": "div:nth-child(8) > div > div",
+    "search_company": ".ml-2.mb-3 > div > div > input",
+    "update_btn": "#drawer-next",
+    "cancel_btn": ".mr-2.MuiButton-outlinedPrimary"
+  },
+  "add_contact_fields": {
+    "first_name": ".inner-content-section > div > div:nth-of-type(1) > div > input",
+    "last_name": ".inner-content-section > div > div:nth-of-type(2) > div > input",
+    "email": ".inner-content-section > div > div:nth-of-type(3) > div > input",
+    "phone_number": ".inner-content-section > div > div:nth-of-type(5) > div > input",
+    "company_field": ".inner-content-section > div > div:nth-of-type(4) > div > div > div > p",
+    "create_select_company": "ul > div.scroll-company-name",
+    "add_and_create_new_contact_btn": ".bg-white > div > div > button:nth-child(2)",
+    "cancel_btn": ".bg-white > div > div > button:nth-child(1)",
+    "create_contact_btn": "#drawer-next",
+    "search_company_field": "#menu- > div > ul > div > div > div > input"
+  },
+  "add_deal_fields": {
+    "deal_name_input_field": ".inner-content-section > div > div:nth-of-type(1) > div > input",
+    "amount__input_field": ".inner-content-section > div > div:nth-of-type(2) > div > input",
+    "closing_date_input_field": ".inner-content-section > div > div:nth-of-type(3) > div > div > input",
+    "deal_calender_next_month": ".MuiPickersCalendarHeader-switchHeader > button:nth-child(3)",
+    "deal_calender": ".inner-content-section > div > div:nth-of-type(3) > div > div > div > button > span > svg",
+    "pipeline_field": ".inner-content-section > div > div:nth-of-type(4) > div > div",
+    "pipeline_list": ".MuiPaper-elevation8.MuiPaper-rounded > ul",
+    "stage_field": ".inner-content-section > div > div:nth-of-type(5) > div > div > div",
+    "stage_list": ".MuiPaper-elevation8.MuiPaper-rounded > ul",
+    "add_and_create_new_deal_btb": ".bg-white > div > div > button:nth-child(2)",
+    "cancel_btn": ".bg-white > div > div > button:nth-child(1)",
+    "create_deal_btn": "#drawer-next",
+    "associated_contact": ".inner-content-section > div > div:nth-of-type(7) > div > div > div",
+    "associated_contact_input": ".MuiPaper-elevation8.MuiPaper-rounded > ul > div > div > div > input"
+  },
+  "activity_list_page": {
+    "header_activity_text": ".align-items-center > div > h5",
+    "activity_list_table": ".MuiPaper-elevation1.MuiPaper-rounded"
+  },
+  "reports_page": {
+    "header_reports_text": ".align-items-center > div > h5"
+  },
+  "dashboard_page": {
+    "header_dashboard_text": ".d-flex.flex-1.align-items-center > div > h5",
+    "crm_logo_side_nav": ".crm-sidenav-panel > div > div.logo > a > img"
+  },
+  "deal_list_kanban_page": {
+    "header_company_text": ".align-items-center > div > h5",
+    "add_deal_btn": ".align-items-center > div:nth-child(3) > button",
+    "list_view_btn": ".viewBoardSection.m-r-12 > div > div:nth-child(2)",
+    "board_view_btn": ".viewBoardSection.m-r-12 > div > div:nth-child(1)",
+    "deal_search": ".align-items-center > div > div > input",
+    "deal_kanban_board": ".d-flex.overflow-auto",
+    "deal_list": ".MuiPaper-rounded > table > tbody",
+    "deal_name": "table > tbody > tr > td > div > div > a > p",
+    "deal_select_check_box": "tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.table-checkbox-section.MuiTableCell-alignRight.MuiTableCell-paddingCheckbox > div > label > div"
+  },
+  "deal_detail_page": {
+    "deal_name": ".border-bottom.py-4.pl-4.pr-3 > div> div> div > h5",
+    "add_deal_btn": ".align-items-center > div:nth-child(3) > button",
+    "back_button": ".back-arrow-icon > svg",
+    "deal_details_three_dot_menu": "div.mb-3.d-flex > div> svg",
+    "deal_detail_edit_btn": "div> div> ul > div > li:nth-child(2)",
+    "contact_association_icon": ".note-panel-right.p-12.border-left > div:nth-child(4)",
+    "company_association_btn": ".note-panel-right.p-12.border-left > div:nth-child(5)",
+    "associated_contact_name": ".note-panel > div> div >div > div:nth-child(2) > div > div > p.sub-title.text-truncate",
+    "associated_company_name": ".note-panel > div > div > div > div > div > div > p.m-b-2"
+  },
+  "deal_detail_panel": {
+    "deal_name": ".details-panel > div > div.flex-1.overflow-auto.py-3.px-4 > div:nth-child(1) > div > div > p",
+    "amount": ".px-4 > div:nth-child(2) > div > div"
+  },
+  "deal_detail_page_edit_fields": {
+    "deal_name": ".MuiTextField-root.mb-3 > div>input",
+    "amount": ".drawer-content > div > div > div:nth-child(3) > div",
+    "closing_date": "#date-picker-inline",
+    "deal_calender_next_month": ".MuiPickersCalendarHeader-switchHeader > button:nth-child(3)",
+    "deal_calender": ".MuiPickersCalendar-transitionContainer > div",
+    "update_btn": "#drawer-next"
+  },
+  "deal_won_stage": {
+    "deal_card": "div:nth-child(1) > div > div.board-body.p-2 > div:nth-child(1)",
+    "deal_name": ".kanban-board-list > div > div> div > div > div> span",
+    "deal_amount": "div > div > div > div > div:nth-child(1) > div> div > p > p"
+  },
+  "deal_list_page_footer": {
+    "edit_btn": "#edit-btn > span.MuiButton-label",
+    "delete_btn": "#delete-btn > span.MuiButton-label",
+    "create_task": ".table-footer > div > div > div",
+    "export_btn": "#export-btn > span.MuiButton-label",
+    "cancel_btn": "#cancel-btn > span.MuiButton-label",
+    "lost_btn": "#lost-btn > span.MuiButton-label",
+    "won_btn": "#won-btn > span.MuiButton-label"
+  },
+  "deal_delete_popup": {
+    "deal_list_delete_btn": ".MuiButton-contained.small.red",
+    "delete_deal_header": "div:nth-child(3) > div > div > h5"
+  },
+  "company_list_page_footer": {
+    "edit_btn": ".d-flex > div:nth-child(4) > button",
+    "delete_btn": "div:nth-child(5) > button",
+    "assign_to": ".customizationButton.d-flex > div:nth-child(1) > button",
+    "create_task": ".customizationButton.d-flex > div:nth-child(2) > button",
+    "export": ".customizationButton.d-flex > div:nth-child(3) > button",
+    "cancel": ".customizationButton.d-flex > div:nth-child(6) > button"
+  },
+  "company_delete_popup": {
+    "company_list_delete_btn": ".MuiButton-contained.small.red",
+    "delete_company_header": "div:nth-child(3) > div > div > h5"
+  },
+  "field_tab": {
+    "create_field_btn": ".d-flex.justify-content-between.mb-3.table-filter > button",
+    "field_search": ".form-control-section.search-input.w-240 > div > input",
+    "field_name": "table > tbody > tr:nth-child(1) > td:nth-child(1)",
+    "more_option_btn": "tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.threeDot-section.cursor-pointer.star-icon.MuiTableCell-alignRight > div",
+    "edit_field": ".MuiPaper-rounded > ul > div > li:nth-child(1)",
+    "delete": ".MuiPaper-rounded > ul > div > li:nth-child(4)",
+    "delete_pop_up_btn": ".MuiButton-root.MuiButton-outlined.red.small",
+    "empty_page": "p.heading.line-normal.font-600.mb-2",
+    "move_to_group": "ul > div > li:nth-child(2) > div",
+    "move_to_group_header": "div.align-items-center.d-flex.justify-content-between > h6",
+    "field_to_move": ".d-inline-flex.px-3.py-10.border-radius-small.sub-header",
+    "move_to_field": ".drawer-content > form > div:nth-child(2) > div > div > div",
+    "group_list": ".MuiPaper-elevation8.MuiPaper-rounded > ul",
+    "update_group_btn": "#drawer-next",
+    "group_name": "table > tbody > tr:nth-child(1) > td:nth-child(2) > p",
+    "field_tab_text": "#tab-0 > span.MuiTab-wrapper",
+    "type_filter_dropdown": "div > div.d-flex.align-items-center > div:nth-child(2) > button",
+    "type_filter_list": ".data-field-menu > div.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation0.MuiPaper-rounded > ul",
+    "field_table_header_group": ".MuiPaper-rounded > table > thead > tr > th:nth-child(2)"
+  },
+  "create_field_drawer": {
+    "field_name": ".MuiTextField-root.mb-3 > div",
+    "object_type": ".drawer-content > form > div > div.m-0 > div > div",
+    "types_list": ".MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded > ul",
+    "group_field": ".drawer-content > form > div > div:nth-child(4) > div > div",
+    "group_list": ".MuiPaper-elevation8.MuiPaper-rounded > ul > div",
+    "cancel_btn": ".drawer-footer.bg-white > div > div.d-flex.false > button",
+    "continue_btn": "#drawer-next",
+    "single_line_text": "div.selectCustom.p-4 > div > div",
+    "multi_line_text_description": "#outlined-multiline-static",
+    "number_format_dropdown": "#object-type > span.MuiTouchRipple-root",
+    "number_format_dropdown_list": "body > div.MuiPopover-root.select-number-currency-menu> div > ul > li:nth-child(1)",
+    "currency": "div.selectCustom.p-4 > div > div:nth-child(4)",
+    "dropdown": "div.selectCustom.p-4 > div > div:nth-child(5)",
+    "multi_select": "div.selectCustom.p-4 > div > div:nth-child(6)",
+    "date_picker": "div.selectCustom.p-4 > div > div:nth-child(7)",
+    "create_field_btn": "#drawer-next",
+    "update": "#drawer-next",
+    "label_box_1": "body > div > div > div > div.drawer-content.add-field-drawer.d-flex > div.addCountry.p-4 > div.pt-4.date-picker-section > div > div > input",
+    "label_box_2": "body > div> div > div > div.drawer-content.add-field-drawer.d-flex > div.addCountry.p-4 > div.field-table-whole > ul > li > div> div > div:nth-child(1) > div > div > input",
+    "Drop_box_header": "div.d-flex.align-items-center.justify-content-between.mb-3 > p"
+  },
+  "group_tab": {
+    "create_group_btn": ".d-flex.justify-content-between.mb-3.table-filter > button",
+    "group_search": ".form-control-section.search-input.w-240 > div > input",
+    "group_name": "tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.group-name-row",
+    "more_option_btn": " tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.threeDot-section.MuiTableCell-alignRight > div",
+    "edit_group": ".MuiPaper-rounded > ul > div > li:nth-child(2)",
+    "view_field": ".MuiPaper-elevation0.MuiPaper-rounded > ul > div > li:nth-child(1)",
+    "delete": ".MuiPaper-rounded > ul > div > li:nth-child(3)",
+    "delete_pop_up_btn": " div.modal-popup > div:nth-child(3) > div > div > div > div > button:nth-child(2)",
+    "empty_page": "p.heading.line-normal.font-600.mb-2",
+    "type_filter_dropdown": "div > div.d-flex.align-items-center > div:nth-child(2) > button",
+    "type_filter_list": "body > div:nth-child(9) > div.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation0.MuiPaper-rounded > ul"
+  },
+  "group_drawer": {
+    "drawer_header": ".d-flex.justify-content-between > h6",
+    "group_name": ".drawer-content > form > div.mb-3 > div > div",
+    "object_type": "form > div:nth-child(3) > div > div",
+    "object_type_list": ".MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded > ul",
+    "create_group": ".MuiButton-contained.small.MuiButton-containedPrimary",
+    "group_update": ".MuiButton-root.MuiButton-contained.small.MuiButton-containedPrimary"
+  },
+  "team_tab": {
+    "empty_page_img": ".align-items-center > div.empty-img.m-b-12",
+    "empty_page_create_team_btn": ".align-items-center > div.mt-3 > button",
+    "create_team_btn": ".justify-content-between.mb-3 > button",
+    "team_name": "div > form > div > div > div > div",
+    "continue_create_btn": ".small.MuiButton-containedPrimary",
+    "table_team_name": "tr:nth-child(1) > td:nth-child(1) > p",
+    "drawer_edit_btn": ".justify-content-between > div.align-items-center.d-flex > button",
+    "user_dropdown": "div > div.drawer-content > div > div > div:nth-child(2) > div > button",
+    "user_list": "div.MuiPopover-root.team-select-menu >div.MuiPaper-rounded > ul",
+    "user_drawer_list": "div > div.drawer-content > div > div .MuiPaper-rounded > table > tbody > tr > td:nth-child(1)",
+    "no_user_found": "div > div.drawer-content > div > div > div.empty-page > div > p",
+    "delete_notification": "#simple-tabpanel-1 > div > div > div:nth-child(1) > div > div",
+    "more_option": "#table-dot-image",
+    "delete_btn": "ul > div > li:nth-child(2)",
+    "remove_team": ".justify-content-end > button:nth-child(2)"
+  },
+  "role_tab": {
+    "create_role_btn": ".justify-content-between.mb-3 > button",
+    "role_name": "div > form > div > div > div > div",
+    "continue_create_btn": ".small.MuiButton-containedPrimary",
+    "table_role_name": "table > tbody > tr:nth-child(1) > td:nth-child(1)",
+    "more_option_btn": "#table-dot-image",
+    "delete_btn": ".MuiPaper-root > ul > div > li:nth-child(2)",
+    "edit_btn": ".MuiPaper-rounded > ul > div > li:nth-child(1)",
+    "delete_notification_snackbar": "#simple-tabpanel-2 > div > div > div:nth-child(1) > div",
+    "remove_role_btn": ".modal-popup > div:nth-child(3) > div > div > div > div > button:nth-child(2)",
+    "add_edit_drawer_header_text": ".drawer-header> div.justify-content-between",
+    "role_name_drawer_lable": ".drawer-content > div > div>form > div > div > label",
+    "role_name_drawer_second_step_text": ".drawer-content > div > div > div > h6"
+  },
+  "activity_page": {
+    "activity_btn_dropdown": "#add_activity",
+    "appointment_btn": "#add_appointment_menu",
+    "task_btn": "#add_task_menu",
+    "activity_table_checkbox": ".MuiTableCell-alignRight.MuiTableCell-paddingCheckbox> div > label > div",
+    "activity_footer_edit_button": "##edit-btn",
+    "activity_footer_delete_button": "##delete-btn",
+    "table_today_button": "div> div > div> div:nth-child(5)> button"
+  },
+  "create_appointment_drawer": {
+    "appointment_drawer_header_text": ".drawer-header > div.justify-content-between",
+    "appointment_title_label": ".drawer-content > div > form > label",
+    "meeting_date_label": "div > form > div.d-flex.mb-3 > div.flex-1 > label",
+    "time_label": ".drawer-content > div > form > div> div:nth-child(3) > label",
+    "timezone_label": ".drawer-content > div > form > div:nth-child(4) > div > label",
+    "duration_label": ".drawer-content > div > form > div > div:nth-child(4) > label",
+    "guest_label": ".drawer-content > div > form > div:nth-child(5) > label",
+    "description_label": ".drawer-content > div > form > div > label",
+    "more_detail_label": ".drawer-content > div > form > h6",
+    "assign_to_label": ".drawer-content > div > form > div:nth-child(8) > div> div > label",
+    "associate_with_label": ".drawer-content > div > form > div:nth-child(8) > div:nth-child(2) > div > label",
+    "appointment_title_input_field": ".drawer-content > div > form > div > div > input",
+    "meeting_date_field": ".drawer-content > div > form > div > div.w-156 > div > div > div",
+    "meeting_date_input_field": ".drawer-content > div > form > div > div> div > div > div > div > button",
+    "calender_next_btn": ".MuiPickersCalendarHeader-switchHeader > button:nth-child(3)",
+    "calender_dates": ".MuiPaper-rounded > div > div > div.MuiPickersCalendar-transitionContainer",
+    "time_field": ".drawer-content > div > form > div > div.w-130.p-l-12 > div > div > div",
+    "guest_dropdown_field": ".drawer-content > div > form > div:nth-child(4) > div > div",
+    "guest_search_field": ".MuiPaper-rounded > ul > div > div > div > input",
+    "guest_dropdown_check_box": "menu- > div> ul > div> div > div > label > div",
+    "activity_dropdown_close_button": "#menu- > div:nth-child(1)",
+    "guest_list": ".MuiPaper-rounded > ul > div.inside-scroll > div > div",
+    "description_field": "#descriptionText",
+    "assign_to_dropdown_field": ".drawer-content > div > form > div:nth-child(7) > div:nth-child(1) > div > div.multi-select",
+    "assign_to_search_field": ".MuiPaper-rounded > ul > div.mr-2.ml-2.mb-3 > div",
+    "assign_to_list": ".MuiPaper-rounded > ul > div.inside-scroll > div",
+    "associate_with_dropdown_field": "#associateWithSelect",
+    "associate_with_search_field": "#associateWithSearch",
+    "associate_with_checkbox": "menu- > div> ul > div.inside-scroll > div> div > label > div > span",
+    "clock_ok_btn": ".MuiDialogActions-root > button:nth-child(2)",
+    "save_appointment_btn": "div > div:nth-child(2) > button.MuiButton-containedPrimary",
+    "cancel_btn": "div > div:nth-child(2) > button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.mr-2.small.MuiButton-outlinedPrimary",
+    "delete_pop_up": "You're about to remove this activity from your workspace. This action cannot be undone"
+  },
+  "create_task_drawer": {
+    "save_task_btn": "div > div > div > div > button.MuiButtonBase-root.MuiButton-contained.small.MuiButton-containedPrimary"
+  },
+  "edit_task_drawer": {
+    "meeting_date_field": ".drawer-content > div > form > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div > button",
+    "time_field": ".drawer-content > div > form > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > button"
+  },
+  "delete_pop_up": {
+    "delete_header_label": "div:nth-child(3) > div > div > h5",
+    "delete_message": "body > div> div:nth-child(3) > div > div > div > p",
+    "delete_btn": "body > div> div:nth-child(3) > div > div > div > div > button:nth-child(2) > span",
+    "cancel_btn": "body > div> div > div > div > div > div > button > span"
+  }
+}

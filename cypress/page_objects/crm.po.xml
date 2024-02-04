@@ -1,0 +1,535 @@
+<?xml version="1.0"?>
+<root>
+	<page name="login_page">
+		<obj name="email_input" attr="id" value="email" />
+		<obj name="password_input" attr="id" value="password" />
+		<obj name="login_button" attr="css" value="#login-form > button" />
+	</page>
+	<page name="product_selection">
+		<obj name="maxis_bot" attr="css" value="div.product-summary.p-24.display-flex.border-radius-xlarge.maxisbot.m-b-16.cursor-pointer > div.m-l-16.flex-1 > div" />
+		<obj name="maxis_crm" attr="css" value="div.product-summary.p-24.display-flex.border-radius-xlarge.maxiscrm.cursor-pointer > div.m-l-16.flex-1" />
+	</page>
+	<page name="sidenav_button">
+		<obj name="activity" attr="css" value=".navigation-menu > a:nth-child(1)" />
+		<obj name="dashboard" attr="css" value=".navigation-menu > a:nth-child(2)" />
+		<obj name="report" attr="css" value=".navigation-menu > a:nth-child(3)" />
+		<obj name="lead" attr="css" value=".p-1 > div:nth-child(1)" />
+		<obj name="contact" attr="css" value="div.d-flex.flex-column.navigation-menu > a:nth-child(5)" />
+		<obj name="company" attr="css" value=".navigation-menu > a:nth-child(6)" />
+		<obj name="deal" attr="css" value=".navigation-menu > a:nth-child(7)" />
+	</page>
+	<page name="settings">
+		<obj name="settings_btn" attr="css" value=".user-profile > div:nth-child(4).p-a-5" />
+		<obj name="security_tab" attr="css" value=".overflow-auto > div:nth-child(2) > div:nth-child(3)" />
+	</page>
+	<page name="settings_data_fields">
+		<obj name="datafields_tab" attr="css" value=".overflow-auto > div:nth-child(3) > div:nth-child(2)" />
+		<obj name="field_tab" attr="css" value="#tab-0 " />
+		<obj name="group_tab" attr="css" value="#tab-1" />
+	</page>
+	<page name="settings_customization">
+		<obj name="customization_tab" attr="css" value=".cursor-pointer.customization-dropdown > p > div" />
+		<obj name="contact_tab" attr="css" value="li:nth-child(1) > div" />
+		<obj name="deals_tab" attr="css" value="li:nth-child(2) > div" />
+		<obj name="company_tab" attr="css" value="li:nth-child(3) > div" />
+		<obj name="search_field" attr="css" value="#simple-tabpanel-0 > div > div > div > div > div > div > div > div > input" />
+		<obj name="select_box_field" attr="css" value="#check-box" />
+		<obj name="footer_save_changes_btn" attr="css" value="button.MuiButton-containedSecondary" />
+	</page>
+	<page name="settings_user_management">
+		<obj name="user_nav_btn" attr="css" value="div.side-nav> div:nth-child(5) > div:nth-child(2)" />
+		<obj name="team_nav_btn" attr="css" value="div.side-nav> div:nth-child(5) > div:nth-child(3)" />
+		<obj name="role_nav_btn" attr="css" value="div.side-nav> div:nth-child(5) > div:nth-child(4)" />
+	</page>
+	<page name="email_module">
+		<obj name="inbox_settings_btn" attr="css" value="div > div.side-nav.py-3.p-r-12.p-l-12 > div:nth-child(4) > div:nth-child(2)" />
+		<obj name="email_templates_btn" attr="css" value="div > div.side-nav.py-3.p-r-12.p-l-12 > div:nth-child(4) > div:nth-child(3)" />
+	</page>
+	<page name="settings_google_integration">
+		<obj name="integration_btn" attr="css" value="div.side-nav > div:nth-child(6) > div" />
+		<obj name="header_integration_text" attr="css" value=".mb-4.justify-content-between > h5" />
+	</page>
+	<page name="basic_profile">
+		<obj name="basic_detail_header_text" value=".settings-content.flex-1.px-4.pt-4.pb-0 > div > div > div > h5:nth-child(1)" />
+	</page>
+	<page name="security_page">
+		<obj name="security_page_header_text" value=".settings-content.flex-1.px-4.pt-4.pb-0 > h5" />
+	</page>
+	<page name="lead_list_page">
+		<obj name="add_lead_btn" attr="css" value=".breadcrumbRight.d-flex.align-items-center > div:nth-child(2)" />
+		<obj name="header_lead_text" attr="css" value=".align-items-center > div > h5" />
+		<obj name="lead_list_table" attr="css" value=".with-pagination.MuiPaper-elevation1.MuiPaper-rounded" />
+		<obj name="lead_select_check_box" value=" tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.table-checkbox-section.MuiTableCell-alignRight.MuiTableCell-paddingCheckbox > div > label > div" />
+		<obj name="lead_name" attr="css" value="tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.custom-tooltip.dynamic-content.MuiTableCell-alignLeft > p" />
+		<obj name="lead_footer_edit_btn" attr="css" value=".d-flex > div:nth-child(4) > button" />
+		<obj name="lead_search" attr="css" value=".align-items-center > div > div > input" />
+		<obj name="lead_empty_page_text" attr="css" value=".heading.line-normal.font-600.mb-2" />
+		<obj name="lead_list" attr="css" value=".MuiPaper-rounded > table > tbody" />
+	</page>
+	<page name="lead_list_footer">
+		<obj name="edit_btn" attr="css" value=".d-flex > div:nth-child(4) > button" />
+		<obj name="delete_btn" attr="css" value=" div:nth-child(5) > button" />
+	</page>
+	<page name="lead_delete_popup">
+		<obj name="lead_list_delete_btn" attr="css" value=".MuiButton-contained.small.red" />
+		<obj name="lead_name" attr="css" value="tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.custom-tooltip.dynamic-content.MuiTableCell-alignLeft" />
+	</page>
+	<page name="lead_detail_page">
+		<obj name="lead_details_header_note_text" attr="css" value=".bg-white.deals-header > h6" />
+		<obj name="timeline_lead_created_text" attr="css" value=".lead-status-section.mb-3 > div > div:nth-child(1) > p" />
+		<obj name="lead_detail_edit_btn" attr="css" value=".m-r-12.small.MuiButton-outlinedSecondary" />
+		<obj name="lead_name" attr="css" value=" div.mb-3.d-flex > div.flex-1.ml-3.text-truncate > div.m-b-2" />
+	</page>
+	<page name="lead_detail_page_edit_fields">
+		<obj name="lead_detail_edit_btn" attr="css" value=".m-r-12.small.MuiButton-outlinedSecondary" />
+		<obj name="first_name" attr="css" value=".drawer-content > div > div > div:nth-child(2) > div" />
+		<obj name="phone_number" attr="css" value=".form-control-section.mb-3 > div" />
+		<obj name="company_field" attr="css" value=".drawer-content > div > div > div:nth-child(8) > div > div" />
+		<obj name="create_select_company" attr="css" value=" ul > div.scroll-company-name" />
+		<obj name="update_btn" atte="css" value="#drawer-next" />
+		<obj name="cancel_btn" attr="css" value=".small.mr-2.MuiButton-outlinedPrimary" />
+	</page>
+	<page name="contact_detail_page_edit_fields">
+		<obj name="contact_detail_edit_btn" attr="css" value=".m-r-12.small.MuiButton-outlinedSecondary" />
+		<obj name="first_name" attr="css" value=".drawer-content > div > div > div:nth-child(2) > div" />
+		<obj name="phone_number" attr="css" value=".form-control-section.mb-3 > div" />
+		<obj name="company_field" attr="css" value=".drawer-content > div > div > div:nth-child(8) > div > div" />
+		<obj name="create_select_company" attr="css" value=" ul > div.scroll-company-name" />
+		<obj name="update_btn" atte="css" value="#drawer-next" />
+		<obj name="cancel_btn" attr="css" value=".small.mr-2.MuiButton-outlinedPrimary" />
+		<obj name="last_name" attr="css" value=".drawer-content > div > div > div:nth-child(4) > div" />
+	</page>
+	<page name="contact_list_page">
+		<obj name="add_Contact_btn" attr="css" value=".breadcrumbRight.d-flex.align-items-center > div:nth-child(2)" />
+		<obj name="header_contact_text" attr="css" value=".align-items-center > div > h5" />
+		<obj name="contact_list_table" attr="css" value=".MuiPaper-elevation1.MuiPaper-rounded > table" />
+		<obj name="contact_name" attr="css" value="table > tbody > tr > td > div > div > a > p" />
+		<obj name="contact_search" attr="css" value=".align-items-center > div > div > input" />
+		<obj name="contact_list" attr="css" value=".MuiPaper-rounded > table > tbody" />
+		<obj name="contact_select_check_box" value="tr > td > div > label > div" />
+		<obj name="contact_empty_page_text" attr="css" value=".heading.line-normal.font-600.mb-2" />
+		<obj name="more_filter_btn" attr="css" value=".MuiButton-label > .d-flex > .title" />
+		<obj name="field_to_filter" attr="css" value=":nth-child(1) > .MuiFormControl-root > .MuiInputBase-root > #demo-simple-select > .line-32" />
+		<obj name="search_field_input" attr="css" value=".m-b-12 > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input" />
+		<obj name="filter_email_contains_input" attr="css" value=".justify-content-end > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input" />
+		<obj name="filter_email_does_not_contain_input" attr="css" value=".justify-content-end > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input" />
+		<obj name="filter_email_has_value_input" attr="css" value=".justify-content-end > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input" />
+		<obj name="more_filter_add_filter_btn" attr="css" value="#drawer-next > .MuiButton-label" />
+		<obj name="more_filter_apply_filter_btn" attr="css" value="#drawer-next > .MuiButton-label" />
+		<obj name="filter_email_empty_radio_btn" attr="css" value=":nth-child(5) > .details" />
+		<obj name="filter_email_does_not_contain_radio_btn" attr="css" value=":nth-child(3) > .details" />
+		<obj name="filter_email_has_value_radio_btn" attr="css" value=":nth-child(4) > .details" />
+		<obj name="filter_phone_number_has_value_radio_btn" attr="css" value=":nth-child(7) > .details" />
+		<obj name="filter_phone_number_does_not_contain_radio_btn" attr="css" value=":nth-child(3) > .details" />
+		<obj name="filter_phone_number_empty_radio_btn" attr="css" value=":nth-child(8) > .details" />
+		<obj name="custom_field_label" attr="css" value="body > div > div> div > div.drawer-content > div > div > label:nth-child(11)" />
+		<obj name="custom_field_value" attr="css" value="body > div> div > div > div > div > div > div:nth-child(12) > div > input" />
+		<obj name="custom_multiline_field_value" attr="css" value="body > div> div> div > div > div > div > div.MuiFormControl-root.MuiTextField-root.mb-3.textArea > div" />
+		<obj name="custom_number_field_label" attr="css" value="body > div > div > div > div> div > div > div:nth-child(11) > label" />
+		<obj name="custom_number_field_value" attr="css" value="body > div > div> div > div> div > div > div:nth-child(11) > div" />
+		<obj name="custom_datepicker_field_label" attr="css" value="body > div> div> div > div > div > div > label:nth-child(11)" />
+		<obj name="custom_datepicker_field_value" attr="css" value="body > div > div > div > div.drawer-content > div > div > div > div > div > div > button > span" />
+		<obj name="custom_datepicker_field1_value" attr="css" value="body > div:nth-child(22) > div> div > div > div > div > div:nth-child(4) > div:nth-child(4) > button > span> p" />
+		<obj name="custom_dropdown_field_label" attr="css" value="body > div > div > div > div > div > div > div:nth-child(11) > label" />
+		<obj name="custom_dropdown_field_value" attr="css" value="body > div > div > div > div> div > div > div:nth-child(11) > div > div > div" />
+		<obj name="custom_dropdown_field1_value" attr="css" value="#menu- > div.MuiPaper-root.MuiMenu-paper.mt-1.details-panel-dropdown.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded > ul > li:nth-child(2)" />
+		<obj name="custom_multiselect_field1_value" attr="css" value="#menu- > div > ul > div:nth-child(2) > div > label > p" />
+		<obj name="delete_btn" attr="css" value=".table-footer > div > div:nth-child(6) > button" />
+	</page>
+	<page name="contact_list_page_footer">
+		<obj name="edit_btn" attr="id" value="edit-btn > span.MuiButton-label" />
+		<obj name="assign_to_btn" attr="id" value="assign-to-btn" />
+		<obj name="create_task_btn" attr="id" value="create-task-btn" />
+		<obj name="export_btn" attr="id" value="export-btn" />
+		<obj name="cancel_btn" attr="id" value="cancel-btn" />
+		<obj name="delete_btn" attr="id" value="delete-btn" />
+		<obj name="send_email_btn" attr="id" value="send-email-btn" />
+	</page>
+	<page name="contact_delete_popup">
+		<obj name="contact_list_delete_btn" attr="css" value=".MuiButton-contained.small.red" />
+		<obj name="delete_deal_header" attr="css" value="div:nth-child(3) > div > div > h5" />
+	</page>
+	<page name="contact_detail_page">
+		<obj name="contact_details_header_note_text" attr="css" value=".bg-white.deals-header > h6" />
+		<obj name="three_dot_menu_edit_contact_option" attr="css" value="div> div> ul > div > li:nth-child(2)" />
+		<obj name="contact_name" attr="css" value=" div > div > div > h5" />
+		<obj name="company_name_sub_title" attr="css" value="div > div.flex-1.text-truncate.d-flex.m-l-12 > div > p" />
+		<obj name="back_button" attr="css" value=".back-arrow-icon > svg" />
+		<obj name="contact_page_create_deal_btn" attr="css" value=".cursor-pointer.small.MuiButton-containedSecondary" />
+		<obj name="action_dropdown" attr="css" value=".endIcon-button.MuiButton-outlinedSecondary" />
+		<obj name="view_all_fields_btn" attr="css" value="#root > div.d-flex > div > div > div > div.details-panel > div > div > button > span.MuiButton-label" />
+		<obj name="customized_field" attr="css" value="#root > div.d-flex > div > div > div > div > div> div > div > div> div > input" />
+		<obj name="add_to_view_btn" attr="css" value=".field-hover-btn > button > span" />
+		<obj name="contact_details_page_header" attr="css" value="#root > div.d-flex > div> div > div> div > div.d-flex.align-items-center.ml-2 > h6.txt-hint.cursor-pointer.size-13.font-600.mr-2" />
+		<obj name="company_association_icon" attr="css" value=".note-panel-right.p-12.border-left > div:nth-child(5)" />
+		<obj name="add_company_association_btn" attr="css" value=".note-panel > div > div.deals-header > button > span.MuiButton-label" />
+		<obj name="existing_company_dropdown" attr="id" value="demo-simple-select" />
+		<obj name="search_existing_company_field" attr="css" value=".MuiPaper-rounded > ul > div > div > div > input" />
+		<obj name="existing_comapny_list" attr="id" value="menu- > div > ul > div> div > label > span" />
+		<obj name="company_save_btn" attr="id" value="drawer-next" />
+		<obj name="associated_company_name" attr="css" value=".note-panel > div> div > div> div > div> div> p.text-truncate.m-b-2" />
+		<obj name="company_more_option_btn" attr="css" value=".note-panel > div > div.d-flex.inner-box-content > div > div > div > svg" />
+		<obj name="remove_association" attr="css" value="#details-menu > div.MuiPaper-rounded > ul > div > li:nth-child(2)" />
+		<obj name="empty_company_association_text" attr="css" value="div.d-flex.inner-box-content > div.flex-1.bg-white.overflow-auto > div > p.empty-title.mb-2" />
+		<obj name="deal_association_icon" attr="css" value=".note-panel-right.p-12.border-left > div:nth-child(4)" />
+		<obj name="add_deal_association_btn" attr="css" value=".note-panel > div > div.deals-header > button > span.MuiButton-label" />
+		<obj name="existing_deals_tab" attr="css" value="#tab-0" />
+		<obj name="create_new_deal_tab" attr="css" value="#tab-1" />
+		<obj name="existing_deal_dropdown" attr="id" value="demo-simple-select" />
+		<obj name="search_existing_deal_field" attr="css" value=".MuiPaper-rounded > ul > div > div > div > input" />
+		<obj name="existing_deal_list" attr="css" value=".MuiPaper-rounded > ul > div.inside-scroll > div" />
+		<obj name="deal_save_btn" attr="css" value="#drawer-next" />
+		<obj name="associated_deal_name" attr="css" value=".note-panel > div > div > div > div > div.mb-2 > p" />
+		<obj name="deal_more_option_btn" attr="css" value=".note-panel > div > div > div > div > div.mb-2 > div > svg" />
+		<obj name="view_association" attr="css" value="#details-menu > div.MuiPaper-rounded > ul > div > li:nth-child(1)" />
+		<obj name="remove_association" attr="css" value="#details-menu > div.MuiPaper-rounded > ul > div > li:nth-child(2)" />
+		<obj name="empty_deal_association_text" attr="css" value="div.d-flex.inner-box-content > div.flex-1.bg-white.overflow-auto > div > p.empty-title.mb-2" />
+		<obj name="contact_details_page_updated_field" attr="css" value=".sidenav-leads > div:nth-child(3) > div > p" />
+		<obj name="contact_details_page_validate_field" attr="css" value="#root > div > div > div> div > div> div > div> div:nth-child(8) > div > div > p" />
+	</page>
+	<page name="contact_details_page_elements">
+		<obj name="three_dot_menu" attr="css" value="div.mb-3.d-flex > div> svg" />
+		<obj name="send_email_icon" attr="css" value=".details-panel > div > div > div > div:nth-child(1) > svg" />
+		<obj name="schedule_an_appointment_icon" attr="css" value=".lead-icon-section > div:nth-child(2) > svg" />
+		<obj name="create_a_task_icon" attr="css" value=".details-panel > div > div > div > div:nth-child(3) > svg" />
+		<obj name="make_a_deal_icon" attr="css" value=".details-panel > div > div > div > div:nth-child(4) > svg" />
+	</page>
+	<page name="contact_detail_panel">
+		<obj name="first_name" attr="css" value=".details-panel > div > div.flex-1.overflow-auto.py-3.px-4 > div:nth-child(1) > div > div > p" />
+		<obj name="email" attr="css" value=" div:nth-child(3) > div > div > p" />
+	</page>
+	<page name="company_list_page">
+		<obj name="add_company_btn" attr="css" value=".breadcrumbRight.d-flex.align-items-center > div:nth-child(2)" />
+		<obj name="header_company_text" attr="css" value=".align-items-center > div > h5" />
+		<obj name="company_list_table" attr="css" value=".MuiPaper-elevation1.MuiPaper-rounded > table" />
+		<obj name="company_name" attr="css" value="table > tbody > tr > td > div > div > a > p" />
+		<obj name="search_companies_input" attr="css" value=".crm-details-panel > div.crm-details-content > div > div > div.breadcrumbLeft > div > div > input" />
+		<obj name="company_phone_number" attr="css" value=" tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.dynamic-content.MuiTableCell-alignLeft" />
+		<obj name="company_select_check_box" value=" tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.table-checkbox-section.MuiTableCell-alignRight.MuiTableCell-paddingCheckbox > div > label > div" />
+		<obj name="company_empty_page_text" attr="css" value=".heading.line-normal.font-600.mb-2" />
+	</page>
+	<page name="company_detail_page">
+		<obj name="company_details_header_note_text" attr="css" value=".bg-white.deals-header > h6" />
+		<obj name="company_details_activity_text" attr="css" value=".mb-3 > h6" />
+		<obj name="add_company_btn" attr="css" value=".breadcrumbRight > :nth-child(2) > .MuiButtonBase-root > .MuiButton-label" />
+		<obj name="company_phone_number_input" attr="css" value=".inner-content-section > div > div:nth-of-type(2) > div > input" />
+		<obj name="company_name_input" attr="css" value=".inner-content-section > div > div:nth-of-type(1) > div > input" />
+		<obj name="cancel_btn" attr="css" value=".drawer-footer > .align-items-center > .d-flex > :nth-child(1) > .MuiButton-label" />
+		<obj name="create_and_add_new_btn" attr="css" value=".drawer-footer > .align-items-center > .d-flex > :nth-child(2) > .MuiButton-label" />
+		<obj name="create_btn" attr="css" value="#drawer-next" />
+		<obj name="created_company_name_title" attr="css" value="div > div > div > h5" />
+		<obj name="three_dot_menu_edit_option" attr="css" value="div> div> ul > div > li:nth-child(2)" />
+		<obj name="created_company_name_sub_title" attr="css" value=".ml-3 > .font-600" />
+		<obj name="created_company_name_company_details" attr="css" value=".sidenav-leads > div:nth-child(3) > div:nth-child(1) > .avathar-list > div > p" />
+		<obj name="company_phone_number_details" attr="css" value=".sidenav-leads > div:nth-child(3) > div:nth-child(2) > .avathar-list > div > p" />
+		<obj name="back_button" attr="css" value=".back-arrow-icon > svg" />
+		<obj name="action_dropdown" attr="css" value=".endIcon-button.MuiButton-outlinedSecondary" />
+		<obj name="company_detail_edit_btn" attr="css" value=".m-r-12.small.MuiButton-outlinedSecondary" />
+		<obj name="contact_association_icon" attr="css" value=".note-panel-right.p-12.border-left > div:nth-child(4)" />
+		<obj name="add_contact_association_btn" attr="css" value=".note-panel > div > div.deals-header > button > span.MuiButton-label" />
+		<obj name="existing_contact_dropdown" attr="id" value="demo-simple-select" />
+		<obj name="search_existing_contact_field" attr="css" value=".MuiPaper-rounded > ul > div > div > div > input" />
+		<obj name="existing_contact_list" attr="css" value=".MuiPaper-rounded > ul > div.inside-scroll > div" />
+		<obj name="contact_save_btn" attr="id" value="drawer-next" />
+		<obj name="associated_contact_name" attr="css" value=".note-panel > div> div > div> div > div> div> p.text-truncate.m-b-2" />
+		<obj name="contact_more_option_btn" attr="css" value=".note-panel > div > div.d-flex.inner-box-content > div > div > div > svg" />
+		<obj name="empty_contact_association_text" attr="css" value="div.d-flex.inner-box-content > div.flex-1.bg-white.overflow-auto > div > p.empty-title.mb-2" />
+		<obj name="deal_association_icon" attr="css" value=".note-panel-right.p-12.border-left > div:nth-child(5)" />
+		<obj name="add_deal_association_btn" attr="css" value=".note-panel > div > div.deals-header > button > span.MuiButton-label" />
+		<obj name="existing_deals_tab" attr="css" value="#tab-0" />
+		<obj name="create_new_deal_tab" attr="css" value="#tab-1" />
+		<obj name="existing_deal_dropdown" attr="id" value="demo-simple-select" />
+		<obj name="search_existing_deal_field" attr="css" value=".MuiPaper-rounded > ul > div > div > div > input" />
+		<obj name="existing_deal_list" attr="css" value=".MuiPaper-rounded > ul > div.inside-scroll > div" />
+		<obj name="deal_save_btn" attr="css" value="#drawer-next" />
+		<obj name="associated_deal_name" attr="css" value=".note-panel > div > div > div > div > div.mb-2 > p" />
+		<obj name="deal_more_option_btn" attr="css" value=".note-panel > div > div > div > div > div.mb-2 > div > svg" />
+		<obj name="view_association" attr="css" value="#details-menu > div.MuiPaper-rounded > ul > div > li:nth-child(1)" />
+		<obj name="remove_association" attr="css" value="#details-menu > div.MuiPaper-rounded > ul > div > li:nth-child(2)" />
+		<obj name="empty_deal_association_text" attr="css" value="div.d-flex.inner-box-content > div.flex-1.bg-white.overflow-auto > div > p.empty-title.mb-2" />
+	</page>
+	<page name="company_details_page_elements">
+		<obj name="three_dot_menu" attr="css" value="div.mb-3.d-flex > div> svg" />
+		<obj name="send_email_icon" attr="css" value="div.details-panel > div > div > div > div:nth-child(1) > svg" />
+		<obj name="schedule_an_appointment_icon" attr="css" value="div> div > div > div.lead-icon-section > div:nth-child(2) > svg" />
+		<obj name="create_a_task_icon" attr="css" value="div.details-panel > div > div > div > div:nth-child(3) > svg" />
+		<obj name="make_a_deal_icon" attr="css" value="div.details-panel > div > div > div > div:nth-child(4) > svg" />
+	</page>
+	<page name="edit_company_fields">
+		<obj name="company_phone_number_input" attr="css" value=".inner-content-section > div > div:nth-of-type(2) > div > input" />
+		<obj name="company_name_input" attr="css" value=".inner-content-section > div > div:nth-of-type(1) > div > input" />
+		<obj name="update_btn" attr="css" value="#drawer-next > span.MuiButton-label" />
+	</page>
+	<page name="add_lead_fields">
+		<obj name="first_name" attr="css" value="div.drawer-content > div > div > div:nth-child(2) > div" />
+		<obj name="email" attr="css" value=".drawer-content > div > div > div:nth-child(6) > div" />
+		<obj name="phone_number" attr="css" value="#outlined-multiline-static" />
+		<obj name="company_field" attr="css" value=".drawer-content > div > div > div:nth-child(8) > div > div" />
+		<obj name="create_select_company" attr="css" value=" ul > div.scroll-company-name" />
+		<obj name="add_and_create_new_lead_btb" attr="css" value=".bg-white > div > div > button:nth-child(2)" />
+		<obj name="cancel_btn" attr="css" value=".bg-white > div > div > button:nth-child(1)" />
+	</page>
+	<page name="edit_lead_drawer_fields">
+		<obj name="first_name" attr="css" value="#single-line" />
+		<obj name="phone_number" attr="css" value="#outlined-multiline-static" />
+		<obj name="company_field" attr="css" value="div:nth-child(8) > div > div" />
+		<obj name="search_company" attr="css" value=".ml-2.mb-3 > div > div > input" />
+		<obj name="update_btn" atte="css" value="#drawer-next" />
+		<obj name="cancel_btn" attr="css" value=".mr-2.MuiButton-outlinedPrimary" />
+	</page>
+	<page name="add_contact_fields">
+		<obj name="first_name" attr="css" value=".inner-content-section > div > div:nth-of-type(1) > div > input" />
+		<obj name="last_name" attr="css" value=".inner-content-section > div > div:nth-of-type(2) > div > input" />
+		<obj name="email" attr="css" value=".inner-content-section > div > div:nth-of-type(3) > div > input" />
+		<obj name="phone_number" attr="css" value=".inner-content-section > div > div:nth-of-type(5) > div > input" />
+		<obj name="company_field" attr="css" value=".inner-content-section > div > div:nth-of-type(4) > div > div > div > p" />
+		<obj name="create_select_company" attr="css" value="ul > div.scroll-company-name" />
+		<obj name="add_and_create_new_contact_btn" attr="css" value=".bg-white > div > div > button:nth-child(2)" />
+		<obj name="cancel_btn" attr="css" value=".bg-white > div > div > button:nth-child(1)" />
+		<obj name="create_contact_btn" attr="css" value="#drawer-next" />
+		<obj name="search_company_field" attr="css" value="#menu- > div > ul > div > div > div > input" />
+	</page>
+	<page name="add_deal_fields">
+		<obj name="deal_name_input_field" attr="css" value=".inner-content-section > div > div:nth-of-type(1) > div > input" />
+		<obj name="amount__input_field" attr="css" value=".inner-content-section > div > div:nth-of-type(2) > div > input" />
+		<obj name="closing_date_input_field" attr="css" value=".inner-content-section > div > div:nth-of-type(3) > div > div > input" />
+		<obj name="deal_calender_next_month" attr="css" value=".MuiPickersCalendarHeader-switchHeader > button:nth-child(3)" />
+		<obj name="deal_calender" attr="css" value=".inner-content-section > div > div:nth-of-type(3) > div > div > div > button > span > svg" />
+		<obj name="pipeline_field" attr="css" value=".inner-content-section > div > div:nth-of-type(4) > div > div" />
+		<obj name="pipeline_list" attr="css" value=".MuiPaper-elevation8.MuiPaper-rounded > ul" />
+		<obj name="stage_field" attr="css" value=".inner-content-section > div > div:nth-of-type(5) > div > div > div" />
+		<obj name="stage_list" attr="css" value=".MuiPaper-elevation8.MuiPaper-rounded > ul" />
+		<obj name="add_and_create_new_deal_btb" attr="css" value=".bg-white > div > div > button:nth-child(2)" />
+		<obj name="cancel_btn" attr="css" value=".bg-white > div > div > button:nth-child(1)" />
+		<obj name="create_deal_btn" attr="css" value="#drawer-next" />
+		<obj name="associated_contact" attr="css" value=".inner-content-section > div > div:nth-of-type(7) > div > div > div" />
+		<obj name="associated_contact_input" attr="css" value=".MuiPaper-elevation8.MuiPaper-rounded > ul > div > div > div > input" />
+	</page>
+	<page name="activity_list_page">
+		<obj name="header_activity_text" attr="css" value=".align-items-center > div > h5" />
+		<obj name="activity_list_table" attr="css" value=".MuiPaper-elevation1.MuiPaper-rounded" />
+	</page>
+	<page name="reports_page">
+		<obj name="header_reports_text" attr="css" value=".align-items-center > div > h5" />
+	</page>
+	<page name="dashboard_page">
+		<obj name="header_dashboard_text" attr="css" value=".d-flex.flex-1.align-items-center > div > h5" />
+		<obj name="crm_logo_side_nav" attr="css" value=".crm-sidenav-panel > div > div.logo > a > img" />
+	</page>
+	<page name="deal_list_kanban_page">
+		<obj name="header_company_text" attr="css" value=".align-items-center > div > h5" />
+		<obj name="add_deal_btn" attr="css" value=".align-items-center > div:nth-child(3) > button" />
+		<obj name="list_view_btn" attr="css" value=".viewBoardSection.m-r-12 > div > div:nth-child(2)" />
+		<obj name="board_view_btn" attr="css" value=".viewBoardSection.m-r-12 > div > div:nth-child(1)" />
+		<obj name="deal_search" attr="css" value=".align-items-center > div > div > input" />
+		<obj name="deal_kanban_board" attr="css" value=".d-flex.overflow-auto" />
+		<obj name="deal_list" attr="css" value=".MuiPaper-rounded > table > tbody" />
+		<obj name="deal_name" attr="css" value="table > tbody > tr > td > div > div > a > p" />
+		<obj name="deal_select_check_box" value="tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.table-checkbox-section.MuiTableCell-alignRight.MuiTableCell-paddingCheckbox > div > label > div" />
+	</page>
+	<page name="deal_detail_page">
+		<obj name="deal_name" attr="css" value=".border-bottom.py-4.pl-4.pr-3 > div> div> div > h5" />
+		<obj name="add_deal_btn" attr="css" value=".align-items-center > div:nth-child(3) > button" />
+		<obj name="back_button" attr="css" value=".back-arrow-icon > svg" />
+		<obj name="deal_details_three_dot_menu" attr="css" value="div.mb-3.d-flex > div> svg" />
+		<obj name="deal_detail_edit_btn" attr="css" value="div> div> ul > div > li:nth-child(2)" />
+		<obj name="contact_association_icon" attr="css" value=".note-panel-right.p-12.border-left > div:nth-child(4)" />
+		<obj name="company_association_btn" attr="css" value=".note-panel-right.p-12.border-left > div:nth-child(5)" />
+		<obj name="associated_contact_name" attr="css" value=".note-panel > div> div >div > div:nth-child(2) > div > div > p.sub-title.text-truncate" />
+		<obj name="associated_company_name" attr="css" value=".note-panel > div > div > div > div > div > div > p.m-b-2" />
+	</page>
+	<page name="deal_detail_panel">
+		<obj name="deal_name" attr="css" value=".details-panel > div > div.flex-1.overflow-auto.py-3.px-4 > div:nth-child(1) > div > div > p" />
+		<obj name="amount" attr="css" value=".px-4 > div:nth-child(2) > div > div" />
+	</page>
+	<page name="deal_detail_page_edit_fields">
+		<obj name="deal_name" attr="css" value=".MuiTextField-root.mb-3 > div>input" />
+		<obj name="amount" attr="css" value=".drawer-content > div > div > div:nth-child(3) > div" />
+		<obj name="closing_date" attr="css" value="#date-picker-inline" />
+		<obj name="deal_calender_next_month" attr="css" value=".MuiPickersCalendarHeader-switchHeader > button:nth-child(3)" />
+		<obj name="deal_calender" attr="css" value=".MuiPickersCalendar-transitionContainer > div" />
+		<obj name="update_btn" atte="css" value="#drawer-next" />
+	</page>
+	<page name="deal_won_stage">
+		<obj name="deal_card" attr="css" value="div:nth-child(1) > div > div.board-body.p-2 > div:nth-child(1)" />
+		<obj name="deal_name" attr="css" value=".kanban-board-list > div > div> div > div > div> span" />
+		<obj name="deal_amount" attr="css" value="div > div > div > div > div:nth-child(1) > div> div > p > p" />
+	</page>
+	<page name="deal_list_page_footer">
+		<obj name="edit_btn" attr="id" value="edit-btn > span.MuiButton-label" />
+		<obj name="delete_btn" attr="id" value="delete-btn > span.MuiButton-label" />
+		<obj name="create_task" attr="css" value=".table-footer > div > div > div" />
+		<obj name="export_btn" attr="id" value="export-btn > span.MuiButton-label" />
+		<obj name="cancel_btn" attr="id" value="cancel-btn > span.MuiButton-label" />
+		<obj name="lost_btn" attr="id" value="lost-btn > span.MuiButton-label" />
+		<obj name="won_btn" attr="id" value="won-btn > span.MuiButton-label" />
+	</page>
+	<page name="deal_delete_popup">
+		<obj name="deal_list_delete_btn" attr="css" value=".MuiButton-contained.small.red" />
+		<obj name="delete_deal_header" attr="css" value="div:nth-child(3) > div > div > h5" />
+	</page>
+	<page name="company_list_page_footer">
+		<obj name="edit_btn" attr="css" value=".d-flex > div:nth-child(4) > button" />
+		<obj name="delete_btn" attr="css" value="div:nth-child(5) > button" />
+		<obj name="assign_to" attr="css" value=".customizationButton.d-flex > div:nth-child(1) > button" />
+		<obj name="create_task" attr="css" value=".customizationButton.d-flex > div:nth-child(2) > button" />
+		<obj name="export" attr="css" value=".customizationButton.d-flex > div:nth-child(3) > button" />
+		<obj name="cancel" attr="css" value=".customizationButton.d-flex > div:nth-child(6) > button" />
+	</page>
+	<page name="company_delete_popup">
+		<obj name="company_list_delete_btn" attr="css" value=".MuiButton-contained.small.red" />
+		<obj name="delete_company_header" attr="css" value="div:nth-child(3) > div > div > h5" />
+	</page>
+	<page name="field_tab">
+		<obj name="create_field_btn" attr="css" value=".d-flex.justify-content-between.mb-3.table-filter > button" />
+		<obj name="field_search" attr="css" value=".form-control-section.search-input.w-240 > div > input" />
+		<obj name="field_name" attr="css" value="table > tbody > tr:nth-child(1) > td:nth-child(1)" />
+		<obj name="more_option_btn" attr="css" value="tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.threeDot-section.cursor-pointer.star-icon.MuiTableCell-alignRight > div" />
+		<obj name="edit_field" attr="css" value=".MuiPaper-rounded > ul > div > li:nth-child(1)" />
+		<obj name="delete" attr="css" value=".MuiPaper-rounded > ul > div > li:nth-child(4)" />
+		<obj name="delete_pop_up_btn" attr="css" value=".MuiButton-root.MuiButton-outlined.red.small" />
+		<obj name="empty_page" attr="css" value="p.heading.line-normal.font-600.mb-2" />
+		<obj name="move_to_group" attr="css" value="ul > div > li:nth-child(2) > div" />
+		<obj name="move_to_group_header" attr="css" value="div.align-items-center.d-flex.justify-content-between > h6" />
+		<obj name="field_to_move" attr="css" value=".d-inline-flex.px-3.py-10.border-radius-small.sub-header" />
+		<obj name="move_to_field" attr="css" value=".drawer-content > form > div:nth-child(2) > div > div > div" />
+		<obj name="group_list" attr="css" value=".MuiPaper-elevation8.MuiPaper-rounded > ul" />
+		<obj name="update_group_btn" attr="css" value="#drawer-next" />
+		<obj name="group_name" attr="css" value="table > tbody > tr:nth-child(1) > td:nth-child(2) > p" />
+		<obj name="field_tab_text" attr="css" value="#tab-0 > span.MuiTab-wrapper" />
+		<obj name="type_filter_dropdown" attr="css" value="div > div.d-flex.align-items-center > div:nth-child(2) > button" />
+		<obj name="type_filter_list" attr="css" value=".data-field-menu > div.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation0.MuiPaper-rounded > ul" />
+		<obj name="field_table_header_group" attr="css" value=".MuiPaper-rounded > table > thead > tr > th:nth-child(2)" />
+	</page>
+	<page name="create_field_drawer">
+		<obj name="field_name" attr="css" value=".MuiTextField-root.mb-3 > div" />
+		<obj name="object_type" attr="css" value=".drawer-content > form > div > div.m-0 > div > div" />
+		<obj name="types_list" attr="css" value=".MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded > ul" />
+		<obj name="group_field" attr="css" value=".drawer-content > form > div > div:nth-child(4) > div > div" />
+		<obj name="group_list" attr="css" value=".MuiPaper-elevation8.MuiPaper-rounded > ul > div" />
+		<obj name="cancel_btn" attr="css" value=".drawer-footer.bg-white > div > div.d-flex.false > button" />
+		<obj name="continue_btn" attr="css" value="#drawer-next" />
+		<obj name="single_line_text" attr="css" value="div.selectCustom.p-4 > div > div" />
+		<obj name="multi_line_text_description" attr="css" value="#outlined-multiline-static" />
+		<obj name="number_format_dropdown" attr="css" value="#object-type > span.MuiTouchRipple-root" />
+		<obj name="number_format_dropdown_list" attr="css" value="body > div.MuiPopover-root.select-number-currency-menu> div > ul > li:nth-child(1)" />
+		<obj name="currency" attr="css" value="div.selectCustom.p-4 > div > div:nth-child(4)" />
+		<obj name="dropdown" attr="css" value="div.selectCustom.p-4 > div > div:nth-child(5)" />
+		<obj name="multi_select" attr="css" value="div.selectCustom.p-4 > div > div:nth-child(6)" />
+		<obj name="date_picker" attr="css" value="div.selectCustom.p-4 > div > div:nth-child(7)" />
+		<obj name="create_field_btn" attr="css" value="#drawer-next" />
+		<obj name="update" attr="css" value="#drawer-next" />
+		<obj name="label_box_1" attr="css" value="body > div > div > div > div.drawer-content.add-field-drawer.d-flex > div.addCountry.p-4 > div.pt-4.date-picker-section > div > div > input" />
+		<obj name="label_box_2" attr="css" value="body > div> div > div > div.drawer-content.add-field-drawer.d-flex > div.addCountry.p-4 > div.field-table-whole > ul > li > div> div > div:nth-child(1) > div > div > input" />
+		<obj name="Drop_box_header" attr="css" value="div.d-flex.align-items-center.justify-content-between.mb-3 > p" />
+	</page>
+	<page name="group_tab">
+		<obj name="create_group_btn" attr="css" value=".d-flex.justify-content-between.mb-3.table-filter > button" />
+		<obj name="group_search" attr="css" value=".form-control-section.search-input.w-240 > div > input" />
+		<obj name="group_name" attr="css" value="tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.group-name-row" />
+		<obj name="more_option_btn" attr="css" value=" tr:nth-child(1) > td.MuiTableCell-root.MuiTableCell-body.threeDot-section.MuiTableCell-alignRight > div" />
+		<obj name="edit_group" attr="css" value=".MuiPaper-rounded > ul > div > li:nth-child(2)" />
+		<obj name="view_field" attr="css" value=".MuiPaper-elevation0.MuiPaper-rounded > ul > div > li:nth-child(1)" />
+		<obj name="delete" attr="css" value=".MuiPaper-rounded > ul > div > li:nth-child(3)" />
+		<obj name="delete_pop_up_btn" attr="css" value=" div.modal-popup > div:nth-child(3) > div > div > div > div > button:nth-child(2)" />
+		<obj name="empty_page" attr="css" value="p.heading.line-normal.font-600.mb-2" />
+		<obj name="type_filter_dropdown" attr="css" value="div > div.d-flex.align-items-center > div:nth-child(2) > button" />
+		<obj name="type_filter_list" attr="css" value="body > div:nth-child(9) > div.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation0.MuiPaper-rounded > ul" />
+	</page>
+	<page name="group_drawer">
+		<obj name="drawer_header" attr="css" value=".d-flex.justify-content-between > h6" />
+		<obj name="group_name" attr="css" value=".drawer-content > form > div.mb-3 > div > div" />
+		<obj name="object_type" attr="css" value="form > div:nth-child(3) > div > div" />
+		<obj name="object_type_list" attr="css" value=".MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded > ul" />
+		<obj name="create_group" attr="css" value=".MuiButton-contained.small.MuiButton-containedPrimary" />
+		<obj name="group_update" attr="css" value=".MuiButton-root.MuiButton-contained.small.MuiButton-containedPrimary" />
+	</page>
+	<page name="team_tab">
+		<obj name="empty_page_img" attr="css" value=".align-items-center > div.empty-img.m-b-12" />
+		<obj name="empty_page_create_team_btn" attr="css" value=".align-items-center > div.mt-3 > button" />
+		<obj name="create_team_btn" attr="css" value=".justify-content-between.mb-3 > button" />
+		<obj name="team_name" attr="css" value="div > form > div > div > div > div" />
+		<obj name="continue_create_btn" attr="css" value=".small.MuiButton-containedPrimary" />
+		<obj name="table_team_name" attr="css" value="tr:nth-child(1) > td:nth-child(1) > p" />
+		<obj name="drawer_edit_btn" attr="css" value=".justify-content-between > div.align-items-center.d-flex > button" />
+		<obj name="user_dropdown" attr="css" value="div > div.drawer-content > div > div > div:nth-child(2) > div > button" />
+		<obj name="user_list" attr="css" value="div.MuiPopover-root.team-select-menu >div.MuiPaper-rounded > ul" />
+		<obj name="user_drawer_list" attr="css" value="div > div.drawer-content > div > div .MuiPaper-rounded > table > tbody > tr > td:nth-child(1)" />
+		<obj name="no_user_found" attr="css" value="div > div.drawer-content > div > div > div.empty-page > div > p" />
+		<obj name="delete_notification" attr="css" value="#simple-tabpanel-1 > div > div > div:nth-child(1) > div > div" />
+		<obj name="more_option" attr="css" value="#table-dot-image" />
+		<obj name="delete_btn" attr="css" value="ul > div > li:nth-child(2)" />
+		<obj name="remove_team" attr="css" value=".justify-content-end > button:nth-child(2)" />
+	</page>
+	<page name="role_tab">
+		<obj name="create_role_btn" attr="css" value=".justify-content-between.mb-3 > button" />
+		<obj name="role_name" attr="css" value="div > form > div > div > div > div" />
+		<obj name="continue_create_btn" attr="css" value=".small.MuiButton-containedPrimary" />
+		<obj name="table_role_name" attr="css" value="table > tbody > tr:nth-child(1) > td:nth-child(1)" />
+		<obj name="more_option_btn" attr="css" value="#table-dot-image" />
+		<obj name="delete_btn" attr="css" value=".MuiPaper-root > ul > div > li:nth-child(2)" />
+		<obj name="edit_btn" attr="css" value=".MuiPaper-rounded > ul > div > li:nth-child(1)" />
+		<obj name="delete_notification_snackbar" attr="css" value="#simple-tabpanel-2 > div > div > div:nth-child(1) > div" />
+		<obj name="remove_role_btn" attr="css" value=".modal-popup > div:nth-child(3) > div > div > div > div > button:nth-child(2)" />
+		<obj name="add_edit_drawer_header_text" attr="css" value=".drawer-header> div.justify-content-between" />
+		<obj name="role_name_drawer_lable" attr="css" value=".drawer-content > div > div>form > div > div > label" />
+		<obj name="role_name_drawer_second_step_text" attr="css" value=".drawer-content > div > div > div > h6" />
+	</page>
+	<page name="activity_page">
+		<obj name="activity_btn_dropdown" attr="id" value="add_activity" />
+		<obj name="appointment_btn" attr="id" value="add_appointment_menu" />
+		<obj name="task_btn" attr="id" value="add_task_menu" />
+		<obj name="activity_table_checkbox" attr="css" value=".MuiTableCell-alignRight.MuiTableCell-paddingCheckbox> div > label > div" />
+		<obj name="activity_footer_edit_button" attr="id" value="#edit-btn" />
+		<obj name="activity_footer_delete_button" attr="id" value="#delete-btn" />
+		<obj name="table_today_button" attr="css" value="div> div > div> div:nth-child(5)> button" />
+	</page>
+	<page name="create_appointment_drawer">
+		<obj name="appointment_drawer_header_text" attr="css" value=".drawer-header > div.justify-content-between" />
+		<obj name="appointment_title_label" attr="css" value=".drawer-content > div > form > label" />
+		<obj name="meeting_date_label" attr="css" value="div > form > div.d-flex.mb-3 > div.flex-1 > label" />
+		<obj name="time_label" attr="css" value=".drawer-content > div > form > div> div:nth-child(3) > label" />
+		<obj name="timezone_label" attr="css" value=".drawer-content > div > form > div:nth-child(4) > div > label" />
+		<obj name="duration_label" atrr="css" value=".drawer-content > div > form > div > div:nth-child(4) > label" />
+		<obj name="guest_label" attr="css" value=".drawer-content > div > form > div:nth-child(5) > label" />
+		<obj name="description_label" attr="css" value=".drawer-content > div > form > div > label" />
+		<obj name="more_detail_label" attr="css" value=".drawer-content > div > form > h6" />
+		<obj name="assign_to_label" attr="css" value=".drawer-content > div > form > div:nth-child(8) > div> div > label" />
+		<obj name="associate_with_label" attr="css" value=".drawer-content > div > form > div:nth-child(8) > div:nth-child(2) > div > label" />
+		<obj name="appointment_title_input_field" attr="css" value=".drawer-content > div > form > div > div > input" />
+		<obj name="meeting_date_field" attr="css" value=".drawer-content > div > form > div > div.w-156 > div > div > div" />
+		<obj name="meeting_date_input_field" attr="css" value=".drawer-content > div > form > div > div> div > div > div > div > button" />
+		<obj name="calender_next_btn" attr="css" value=".MuiPickersCalendarHeader-switchHeader > button:nth-child(3)" />
+		<obj name="calender_dates" attr="css" value=".MuiPaper-rounded > div > div > div.MuiPickersCalendar-transitionContainer" />
+		<obj name="time_field" attr="css" value=".drawer-content > div > form > div > div.w-130.p-l-12 > div > div > div" />
+		<obj name="guest_dropdown_field" attr="css" value=".drawer-content > div > form > div:nth-child(4) > div > div" />
+		<obj name="guest_search_field" attr="css" value=".MuiPaper-rounded > ul > div > div > div > input" />
+		<obj name="guest_dropdown_check_box" attr="css" value="menu- > div> ul > div> div > div > label > div" />
+		<obj name="activity_dropdown_close_button" attr="id" value="menu- > div:nth-child(1)" />
+		<obj name="guest_list" attr="css" value=".MuiPaper-rounded > ul > div.inside-scroll > div > div" />
+		<obj name="description_field" attr="id" value="descriptionText" />
+		<obj name="assign_to_dropdown_field" attr="css" value=".drawer-content > div > form > div:nth-child(7) > div:nth-child(1) > div > div.multi-select" />
+		<obj name="assign_to_search_field" attr="css" value=".MuiPaper-rounded > ul > div.mr-2.ml-2.mb-3 > div" />
+		<obj name="assign_to_list" attr="css" value=".MuiPaper-rounded > ul > div.inside-scroll > div" />
+		<obj name="associate_with_dropdown_field" attr="id" value="associateWithSelect" />
+		<obj name="associate_with_search_field" attr="id" value="associateWithSearch" />
+		<obj name="associate_with_checkbox" atrr="id" value="menu- > div> ul > div.inside-scroll > div> div > label > div > span" />
+		<obj name="clock_ok_btn" attr="css" value=".MuiDialogActions-root > button:nth-child(2)" />
+		<obj name="save_appointment_btn" attr="css" value="div > div:nth-child(2) > button.MuiButton-containedPrimary" />
+		<obj name="cancel_btn" atrr="css" value="div > div:nth-child(2) > button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.mr-2.small.MuiButton-outlinedPrimary" />
+		<obj name="delete_pop_up" attr="text" value="You're about to remove this activity from your workspace. This action cannot be undone" />
+	</page>
+	<page name="create_task_drawer">
+		<obj name="save_task_btn" attr="css" value="div > div > div > div > button.MuiButtonBase-root.MuiButton-contained.small.MuiButton-containedPrimary" />
+	</page>
+	<page name="edit_task_drawer">
+		<obj name="meeting_date_field" attr="css" value=".drawer-content > div > form > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div > button" />
+		<obj name="time_field" attr="css" value=".drawer-content > div > form > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > button" />
+	</page>
+	<page name="delete_pop_up">
+		<obj name="delete_header_label" attr="css" value="div:nth-child(3) > div > div > h5" />
+		<obj name="delete_message" attr="css" value="body > div> div:nth-child(3) > div > div > div > p" />
+		<obj name="delete_btn" attr="css" value="body > div> div:nth-child(3) > div > div > div > div > button:nth-child(2) > span" />
+		<obj name="cancel_btn" attr="css" value="body > div> div > div > div > div > div > button > span" />
+	</page>
+</root>
